@@ -64,6 +64,8 @@
       overflow-x: hidden;
       scrollbar-width: none;
       -ms-overflow-style: none;
+      /* ── Fallback: verhindert weiße Seite wenn Vanta.js nicht lädt ── */
+      background-color: #1a0808;
     }
     html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; }
 
